@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="images/Portada_README.png" alt="Portada Repositorio">
+    <img src="images/portada_README.png" alt="Portada Repositorio">
 </div>
 
 ----
