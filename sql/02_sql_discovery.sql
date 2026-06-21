@@ -43,9 +43,9 @@ GROUP BY mes, ventas.vendedor;
 -- Encuentra el cliente que generó el mayor ingreso total en el primer semestre.
 
 
-SELECT cliente_id, MAX(ingreso_total) AS ingreso_total
+SELECT cliente_id, cliente_nombre, MAX(ingreso_total) AS ingreso_total
 FROM (
-    SELECT cliente_id, SUM(cantidad * precio_unitario) AS ingreso_total
+    SELECT cliente_id, cliente_nombre, SUM(cantidad * precio_unitario) AS ingreso_total
     FROM "ventas_techventas"
     GROUP BY cliente_id
 );

@@ -11,7 +11,7 @@ conda activate reto_u1
 ```bash
 # Dependencias
 # Forma 1
-conda install pandas numpy
+conda install pandas numpy sqlalchemy
 
 # Alternativamente:
 conda install --file requirements.txt
